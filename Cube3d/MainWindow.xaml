@@ -1,0 +1,9 @@
+﻿<Window x:Class="Cube3d.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="600"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Canvas x:Name="canvas"  Width="600" Height="600" Background="Gray"/>
+    </Grid>
+</Window>
